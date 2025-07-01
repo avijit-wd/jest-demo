@@ -39,3 +39,9 @@ Requirement 3
 
 - refactor
 - Admin Password should also contain a number
+
+Spies vs Mocks
+
+- spies are not directly injected into SUT
+- original functionality is preserved with spies
+- Spies usually track method calls

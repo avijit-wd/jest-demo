@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1751266112123" clover="3.2.0">
-  <project timestamp="1751266112124" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="16" coveredconditionals="16" methods="10" coveredmethods="10" elements="58" coveredelements="58" complexity="0" loc="32" ncloc="32" packages="2" files="2" classes="2"/>
+<coverage generated="1751356956884" clover="3.2.0">
+  <project timestamp="1751356956884" name="All files">
+    <metrics statements="48" coveredstatements="41" conditionals="18" coveredconditionals="16" methods="17" coveredmethods="14" elements="83" coveredelements="71" complexity="0" loc="48" ncloc="48" packages="3" files="3" classes="3"/>
     <package name="app">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <file name="Utils.ts" path="/home/avijit-pc/Desktop/jest-demo/src/app/Utils.ts">
@@ -16,10 +16,33 @@
         <line num="23" count="6" type="stmt"/>
       </file>
     </package>
+    <package name="app.doubles">
+      <metrics statements="17" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="otherUtils.ts" path="/home/avijit-pc/Desktop/jest-demo/src/app/doubles/otherUtils.ts">
+        <metrics statements="17" coveredstatements="10" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="app.pass_checker">
-      <metrics statements="24" coveredstatements="24" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
+      <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
       <file name="PasswordChecker.ts" path="/home/avijit-pc/Desktop/jest-demo/src/app/pass_checker/PasswordChecker.ts">
-        <metrics statements="24" coveredstatements="24" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
+        <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -33,17 +56,16 @@
         <line num="21" count="9" type="stmt"/>
         <line num="28" count="2" type="stmt"/>
         <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="46" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="52" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="53" count="2" type="stmt"/>
-        <line num="58" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="59" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="45" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="51" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="57" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="2" type="stmt"/>
       </file>
     </package>
   </project>
